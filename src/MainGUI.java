@@ -75,7 +75,7 @@ public class MainGUI
 	private void initialize() 
 	{
 		frmPhilosophersVsSticks = new JFrame();
-		frmPhilosophersVsSticks.setIconImage(Toolkit.getDefaultToolkit().getImage("D:\\\u05DE\u05D3\u05E2\u05D9 \u05D4\u05DE\u05D7\u05E9\u05D1 - \u05EA\u05D5\u05D0\u05E8 \u05E8\u05D0\u05E9\u05D5\u05DF\\Advanced Java\\Threads - Philosophers\\src\\expertadvise.png"));
+		frmPhilosophersVsSticks.setIconImage(Toolkit.getDefaultToolkit().getImage(MainGUI.class.getResource("/resources/expertadvise.png")));
 		frmPhilosophersVsSticks.setTitle("Philosophers VS Sticks");
 		frmPhilosophersVsSticks.setResizable(false);
 		frmPhilosophersVsSticks.setBounds(100, 100, 1500, 891);
@@ -120,7 +120,7 @@ public class MainGUI
 		lblTable = new JLabel("");
 		lblTable.setOpaque(true);
 		lblTable.setBounds(492, 71, 443, 489);
-		lblTable.setIcon(new ImageIcon("D:\\\u05DE\u05D3\u05E2\u05D9 \u05D4\u05DE\u05D7\u05E9\u05D1 - \u05EA\u05D5\u05D0\u05E8 \u05E8\u05D0\u05E9\u05D5\u05DF\\Advanced Java\\Threads - Philosophers\\src\\Inked5pplRoundTable.jpg"));
+		lblTable.setIcon(new ImageIcon(MainGUI.class.getResource("/resources/Inked5pplRoundTable.jpg")));
 		mainPanel.add(lblTable);
 		
 		
